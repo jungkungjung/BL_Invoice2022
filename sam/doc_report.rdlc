@@ -1,0 +1,2406 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner" xmlns="http://schemas.microsoft.com/sqlserver/reporting/2008/01/reportdefinition">
+  <DataSources>
+    <DataSource Name="INVOICE_BLDataSet">
+      <ConnectionProperties>
+        <DataProvider>System.Data.DataSet</DataProvider>
+        <ConnectString>/* Local Connection */</ConnectString>
+      </ConnectionProperties>
+      <rd:DataSourceID>201718e5-6329-4b89-944d-0fd222499579</rd:DataSourceID>
+    </DataSource>
+  </DataSources>
+  <DataSets>
+    <DataSet Name="DataSet1">
+      <Fields>
+        <Field Name="TRH_ID">
+          <DataField>TRH_ID</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="TRH_DT">
+          <DataField>TRH_DT</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="TRH_DATE">
+          <DataField>TRH_DATE</DataField>
+          <rd:TypeName>System.DateTime</rd:TypeName>
+        </Field>
+        <Field Name="TRH_NO">
+          <DataField>TRH_NO</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CUS_ID">
+          <DataField>CUS_ID</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="CUS_CODE">
+          <DataField>CUS_CODE</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CUS_NAME">
+          <DataField>CUS_NAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CUS_BRANCH">
+          <DataField>CUS_BRANCH</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CUS_TAXID">
+          <DataField>CUS_TAXID</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ADDRESS">
+          <DataField>ADDRESS</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CUS_TEL">
+          <DataField>CUS_TEL</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CUS_FAX">
+          <DataField>CUS_FAX</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="SLMN_ID">
+          <DataField>SLMN_ID</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="SLMN_CODE">
+          <DataField>SLMN_CODE</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="SLMN_NAME">
+          <DataField>SLMN_NAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="TRH_VAT_NO">
+          <DataField>TRH_VAT_NO</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="TRH_VAT_DATE">
+          <DataField>TRH_VAT_DATE</DataField>
+          <rd:TypeName>System.DateTime</rd:TypeName>
+        </Field>
+        <Field Name="TRH_SHIP_DATE">
+          <DataField>TRH_SHIP_DATE</DataField>
+          <rd:TypeName>System.DateTime</rd:TypeName>
+        </Field>
+        <Field Name="TRH_BILL_DATE">
+          <DataField>TRH_BILL_DATE</DataField>
+          <rd:TypeName>System.DateTime</rd:TypeName>
+        </Field>
+        <Field Name="TRH_CANCEL_DATE">
+          <DataField>TRH_CANCEL_DATE</DataField>
+          <rd:TypeName>System.DateTime</rd:TypeName>
+        </Field>
+        <Field Name="TRH_CUS">
+          <DataField>TRH_CUS</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="TRH_SLMN">
+          <DataField>TRH_SLMN</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="TRH_TERM">
+          <DataField>TRH_TERM</DataField>
+          <rd:TypeName>System.Int16</rd:TypeName>
+        </Field>
+        <Field Name="TRH_DUE">
+          <DataField>TRH_DUE</DataField>
+          <rd:TypeName>System.DateTime</rd:TypeName>
+        </Field>
+        <Field Name="TRH_REF_PO">
+          <DataField>TRH_REF_PO</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="TRH_REF_SO">
+          <DataField>TRH_REF_SO</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="TRH_REF_PERSON">
+          <DataField>TRH_REF_PERSON</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="TRH_VATIO">
+          <DataField>TRH_VATIO</DataField>
+          <rd:TypeName>System.Byte</rd:TypeName>
+        </Field>
+        <Field Name="TRH_VAT">
+          <DataField>TRH_VAT</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="TRH_VAT_TY">
+          <DataField>TRH_VAT_TY</DataField>
+          <rd:TypeName>System.Byte</rd:TypeName>
+        </Field>
+        <Field Name="TRH_VAT_R">
+          <DataField>TRH_VAT_R</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="TRH_N_QTY">
+          <DataField>TRH_N_QTY</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="TRH_N_ITEMS">
+          <DataField>TRH_N_ITEMS</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="TRH_G_KEYIN">
+          <DataField>TRH_G_KEYIN</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="TRH_DISC">
+          <DataField>TRH_DISC</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="TRH_DISC_AMT">
+          <DataField>TRH_DISC_AMT</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="TRH_G_SELL">
+          <DataField>TRH_G_SELL</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="TRH_G_SNV">
+          <DataField>TRH_G_SNV</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="TRH_G_SV">
+          <DataField>TRH_G_SV</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="TRH_G_VAT">
+          <DataField>TRH_G_VAT</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="TRH_G_NET">
+          <DataField>TRH_G_NET</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="TRH_REMARK">
+          <DataField>TRH_REMARK</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="TRH_DOC_STATUS">
+          <DataField>TRH_DOC_STATUS</DataField>
+          <rd:TypeName>System.Byte</rd:TypeName>
+        </Field>
+        <Field Name="TRH_STATUS">
+          <DataField>TRH_STATUS</DataField>
+          <rd:TypeName>System.Boolean</rd:TypeName>
+        </Field>
+        <Field Name="TRH_CREATE_BY">
+          <DataField>TRH_CREATE_BY</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="TRH_CREATE">
+          <DataField>TRH_CREATE</DataField>
+          <rd:TypeName>System.DateTime</rd:TypeName>
+        </Field>
+        <Field Name="TRD_ID">
+          <DataField>TRD_ID</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="TRD_TRH">
+          <DataField>TRD_TRH</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="TRD_SEQ">
+          <DataField>TRD_SEQ</DataField>
+          <rd:TypeName>System.Int16</rd:TypeName>
+        </Field>
+        <Field Name="TRD_SKU">
+          <DataField>TRD_SKU</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="TRD_SKU_CODE">
+          <DataField>TRD_SKU_CODE</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="TRD_SKU_NAME">
+          <DataField>TRD_SKU_NAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="TRD_UNIT">
+          <DataField>TRD_UNIT</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="TRD_VAT_TY">
+          <DataField>TRD_VAT_TY</DataField>
+          <rd:TypeName>System.Byte</rd:TypeName>
+        </Field>
+        <Field Name="TRD_VAT_R">
+          <DataField>TRD_VAT_R</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="TRD_QTY">
+          <DataField>TRD_QTY</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="TRD_UPC">
+          <DataField>TRD_UPC</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="TRD_DISC">
+          <DataField>TRD_DISC</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="TRD_DISC_AMT">
+          <DataField>TRD_DISC_AMT</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="TRD_G_KEYIN">
+          <DataField>TRD_G_KEYIN</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="TRD_REMARK">
+          <DataField>TRD_REMARK</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="TRD_CREATE">
+          <DataField>TRD_CREATE</DataField>
+          <rd:TypeName>System.DateTime</rd:TypeName>
+        </Field>
+      </Fields>
+      <Query>
+        <DataSourceName>INVOICE_BLDataSet</DataSourceName>
+        <CommandText>/* Local Query */</CommandText>
+      </Query>
+      <rd:DataSetInfo>
+        <rd:DataSetName>INVOICE_BLDataSet</rd:DataSetName>
+        <rd:SchemaPath>C:\Users\Kullawat\Desktop\invoice_bl_rdl\sam\Data\INVOICE_BLDataSet.xsd</rd:SchemaPath>
+        <rd:TableName>doc_report</rd:TableName>
+        <rd:TableAdapterFillMethod>Fill</rd:TableAdapterFillMethod>
+        <rd:TableAdapterGetDataMethod>GetData</rd:TableAdapterGetDataMethod>
+        <rd:TableAdapterName>doc_reportTableAdapter</rd:TableAdapterName>
+      </rd:DataSetInfo>
+    </DataSet>
+  </DataSets>
+  <Body>
+    <ReportItems>
+      <Textbox Name="Textbox10">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>=First(Fields!TRH_REMARK.Value, "DataSet1")</Value>
+                <Style>
+                  <FontFamily>Angsana New</FontFamily>
+                  <FontSize>12pt</FontSize>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style>
+              <TextAlign>Left</TextAlign>
+            </Style>
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox3</rd:DefaultName>
+        <Top>1.31cm</Top>
+        <Left>0.29104cm</Left>
+        <Height>1.09cm</Height>
+        <Width>13.98092cm</Width>
+        <Style>
+          <Border>
+            <Color>LightGrey</Color>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Tablix Name="Tablix1">
+        <TablixBody>
+          <TablixColumns>
+            <TablixColumn>
+              <Width>0.40043in</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>1.24914in</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>3.27006in</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>0.58467in</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>0.66673in</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>0.74803in</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>0.75986in</Width>
+            </TablixColumn>
+          </TablixColumns>
+          <TablixRows>
+            <TablixRow>
+              <Height>0.23622in</Height>
+              <TablixCells>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox1">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>ลำดับ</Value>
+                              <Style>
+                                <FontFamily>Angsana New</FontFamily>
+                                <FontSize>12pt</FontSize>
+                                <FontWeight>Bold</FontWeight>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style>
+                            <TextAlign>Center</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox1</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox3">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>รหัสสินค้า</Value>
+                              <Style>
+                                <FontFamily>Angsana New</FontFamily>
+                                <FontSize>12pt</FontSize>
+                                <FontWeight>Bold</FontWeight>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style>
+                            <TextAlign>Center</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox3</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox5">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>รายละเอียด</Value>
+                              <Style>
+                                <FontFamily>Angsana New</FontFamily>
+                                <FontSize>12pt</FontSize>
+                                <FontWeight>Bold</FontWeight>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style>
+                            <TextAlign>Center</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox5</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox7">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>หน่วย</Value>
+                              <Style>
+                                <FontFamily>Angsana New</FontFamily>
+                                <FontSize>12pt</FontSize>
+                                <FontWeight>Bold</FontWeight>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style>
+                            <TextAlign>Center</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox7</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox9">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>จำนวน</Value>
+                              <Style>
+                                <FontFamily>Angsana New</FontFamily>
+                                <FontSize>12pt</FontSize>
+                                <FontWeight>Bold</FontWeight>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style>
+                            <TextAlign>Center</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox9</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox11">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>ราคา</Value>
+                              <Style>
+                                <FontFamily>Angsana New</FontFamily>
+                                <FontSize>12pt</FontSize>
+                                <FontWeight>Bold</FontWeight>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style>
+                            <TextAlign>Center</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox11</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox92">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>จำนวนเงิน</Value>
+                              <Style>
+                                <FontFamily>Angsana New</FontFamily>
+                                <FontSize>12pt</FontSize>
+                                <FontWeight>Bold</FontWeight>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style>
+                            <TextAlign>Center</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox92</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+              </TablixCells>
+            </TablixRow>
+            <TablixRow>
+              <Height>0.23622in</Height>
+              <TablixCells>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="TRD_SEQ">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!TRD_SEQ.Value</Value>
+                              <Style>
+                                <FontFamily>Angsana New</FontFamily>
+                                <FontSize>12pt</FontSize>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style>
+                            <TextAlign>Center</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>TRD_SEQ</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="TRD_SKU_CODE">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!TRD_SKU_CODE.Value</Value>
+                              <Style>
+                                <FontFamily>Angsana New</FontFamily>
+                                <FontSize>12pt</FontSize>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>TRD_SKU_CODE</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="TRD_SKU_NAME">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!TRD_SKU_NAME.Value</Value>
+                              <Style>
+                                <FontFamily>Angsana New</FontFamily>
+                                <FontSize>12pt</FontSize>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>TRD_SKU_NAME</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="TRD_UNIT">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!TRD_UNIT.Value</Value>
+                              <Style>
+                                <FontFamily>Angsana New</FontFamily>
+                                <FontSize>12pt</FontSize>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>TRD_UNIT</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="TRD_QTY">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!TRD_QTY.Value</Value>
+                              <Style>
+                                <FontFamily>Angsana New</FontFamily>
+                                <FontSize>12pt</FontSize>
+                                <Format>#,0.00;(#,0.00);'-'</Format>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style>
+                            <TextAlign>Right</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>TRD_QTY</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="TRD_UPC">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!TRD_UPC.Value</Value>
+                              <Style>
+                                <FontFamily>Angsana New</FontFamily>
+                                <FontSize>12pt</FontSize>
+                                <Format>#,0.00;(#,0.00);'-'</Format>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style>
+                            <TextAlign>Right</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>TRD_UPC</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="TRD_G_KEYIN">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!TRD_G_KEYIN.Value</Value>
+                              <Style>
+                                <FontFamily>Angsana New</FontFamily>
+                                <FontSize>12pt</FontSize>
+                                <Format>#,0.00;(#,0.00);'-'</Format>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style>
+                            <TextAlign>Right</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>TRD_G_KEYIN</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+              </TablixCells>
+            </TablixRow>
+          </TablixRows>
+        </TablixBody>
+        <TablixColumnHierarchy>
+          <TablixMembers>
+            <TablixMember />
+            <TablixMember />
+            <TablixMember />
+            <TablixMember />
+            <TablixMember />
+            <TablixMember />
+            <TablixMember />
+          </TablixMembers>
+        </TablixColumnHierarchy>
+        <TablixRowHierarchy>
+          <TablixMembers>
+            <TablixMember>
+              <KeepWithGroup>After</KeepWithGroup>
+            </TablixMember>
+            <TablixMember>
+              <Group Name="Details" />
+            </TablixMember>
+          </TablixMembers>
+        </TablixRowHierarchy>
+        <DataSetName>DataSet1</DataSetName>
+        <Top>0.10583cm</Top>
+        <Left>0.29104cm</Left>
+        <Height>1.2cm</Height>
+        <Width>19.50446cm</Width>
+        <ZIndex>1</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <FontSize>12pt</FontSize>
+        </Style>
+      </Tablix>
+      <Textbox Name="Textbox4">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>ยอดรวมก่อนภาษี</Value>
+                <Style>
+                  <FontFamily>Angsana New</FontFamily>
+                  <FontSize>12pt</FontSize>
+                  <FontWeight>Bold</FontWeight>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style>
+              <TextAlign>Left</TextAlign>
+            </Style>
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox3</rd:DefaultName>
+        <Top>1.31cm</Top>
+        <Left>14.27196cm</Left>
+        <Height>0.6cm</Height>
+        <Width>3.61393cm</Width>
+        <ZIndex>2</ZIndex>
+        <Style>
+          <Border>
+            <Color>LightGrey</Color>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox6">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>ภาษีมูลค่าเพิ่ม</Value>
+                <Style>
+                  <FontFamily>Angsana New</FontFamily>
+                  <FontSize>12pt</FontSize>
+                  <FontWeight>Bold</FontWeight>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style>
+              <TextAlign>Left</TextAlign>
+            </Style>
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox3</rd:DefaultName>
+        <Top>1.85cm</Top>
+        <Left>14.27196cm</Left>
+        <Height>0.6cm</Height>
+        <Width>1.85cm</Width>
+        <ZIndex>3</ZIndex>
+        <Style>
+          <Border>
+            <Color>LightGrey</Color>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox8">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>ยอดเงินสุทธิ</Value>
+                <Style>
+                  <FontFamily>Angsana New</FontFamily>
+                  <FontSize>12pt</FontSize>
+                  <FontWeight>Bold</FontWeight>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style>
+              <TextAlign>Left</TextAlign>
+            </Style>
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox3</rd:DefaultName>
+        <Top>2.4cm</Top>
+        <Left>14.27196cm</Left>
+        <Height>0.6cm</Height>
+        <Width>3.61393cm</Width>
+        <ZIndex>4</ZIndex>
+        <Style>
+          <Border>
+            <Color>LightGrey</Color>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox171">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>=First(Fields!TRH_G_SELL.Value, "DataSet1")</Value>
+                <Style>
+                  <FontFamily>Angsana New</FontFamily>
+                  <FontSize>11pt</FontSize>
+                  <Format>#,0.00;(#,0.00);'-'</Format>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style>
+              <TextAlign>Right</TextAlign>
+            </Style>
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox163</rd:DefaultName>
+        <Top>1.31cm</Top>
+        <Left>17.88589cm</Left>
+        <Height>0.6cm</Height>
+        <Width>1.90641cm</Width>
+        <ZIndex>5</ZIndex>
+        <Style>
+          <Border>
+            <Color>LightGrey</Color>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox100">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>=First(Fields!TRH_G_VAT.Value, "DataSet1")</Value>
+                <Style>
+                  <FontFamily>Angsana New</FontFamily>
+                  <FontSize>11pt</FontSize>
+                  <Format>#,0.00;(#,0.00);'-'</Format>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style>
+              <TextAlign>Right</TextAlign>
+            </Style>
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox99</rd:DefaultName>
+        <Top>1.85cm</Top>
+        <Left>17.88909cm</Left>
+        <Height>0.6cm</Height>
+        <Width>1.90001cm</Width>
+        <ZIndex>6</ZIndex>
+        <Style>
+          <Border>
+            <Color>LightGrey</Color>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox107">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>=First(Fields!TRH_G_NET.Value, "DataSet1")</Value>
+                <Style>
+                  <FontFamily>Angsana New</FontFamily>
+                  <FontSize>11pt</FontSize>
+                  <Format>#,0.00;(#,0.00);'-'</Format>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style>
+              <TextAlign>Right</TextAlign>
+            </Style>
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox106</rd:DefaultName>
+        <Top>2.4cm</Top>
+        <Left>17.88589cm</Left>
+        <Height>0.6cm</Height>
+        <Width>1.90641cm</Width>
+        <ZIndex>7</ZIndex>
+        <Style>
+          <Border>
+            <Color>LightGrey</Color>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox172">
+        <CanGrow>true</CanGrow>
+        <CanShrink>true</CanShrink>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>ผู้ส่งสินค้า</Value>
+                <Style>
+                  <FontFamily>Angsana New</FontFamily>
+                  <FontSize>12pt</FontSize>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style>
+              <TextAlign>Center</TextAlign>
+            </Style>
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox164</rd:DefaultName>
+        <Top>3.82cm</Top>
+        <Left>2.75cm</Left>
+        <Height>0.68cm</Height>
+        <Width>1.62195cm</Width>
+        <ZIndex>8</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox173">
+        <CanGrow>true</CanGrow>
+        <CanShrink>true</CanShrink>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>ผู้ส่งสินค้า</Value>
+                <Style>
+                  <FontFamily>Angsana New</FontFamily>
+                  <FontSize>12pt</FontSize>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style>
+              <TextAlign>Center</TextAlign>
+            </Style>
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox164</rd:DefaultName>
+        <Top>3.82cm</Top>
+        <Left>8.8cm</Left>
+        <Height>0.68cm</Height>
+        <Width>1.62195cm</Width>
+        <ZIndex>9</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox174">
+        <CanGrow>true</CanGrow>
+        <CanShrink>true</CanShrink>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>ผู้ส่งสินค้า</Value>
+                <Style>
+                  <FontFamily>Angsana New</FontFamily>
+                  <FontSize>12pt</FontSize>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style>
+              <TextAlign>Center</TextAlign>
+            </Style>
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox164</rd:DefaultName>
+        <Top>3.82cm</Top>
+        <Left>15.4cm</Left>
+        <Height>0.68cm</Height>
+        <Width>1.62195cm</Width>
+        <ZIndex>10</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox175">
+        <CanGrow>true</CanGrow>
+        <CanShrink>true</CanShrink>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>วันที่....../....../............</Value>
+                <Style>
+                  <FontFamily>Angsana New</FontFamily>
+                  <FontSize>12pt</FontSize>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style>
+              <TextAlign>Center</TextAlign>
+            </Style>
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox164</rd:DefaultName>
+        <Top>4.4cm</Top>
+        <Left>2.224cm</Left>
+        <Height>0.65cm</Height>
+        <Width>2.82287cm</Width>
+        <ZIndex>11</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox176">
+        <CanGrow>true</CanGrow>
+        <CanShrink>true</CanShrink>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>..............................</Value>
+                <Style>
+                  <FontFamily>Angsana New</FontFamily>
+                  <FontSize>12pt</FontSize>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style>
+              <TextAlign>Center</TextAlign>
+            </Style>
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox164</rd:DefaultName>
+        <Top>3.4cm</Top>
+        <Left>2.224cm</Left>
+        <Height>0.6cm</Height>
+        <Width>2.82287cm</Width>
+        <ZIndex>12</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox177">
+        <CanGrow>true</CanGrow>
+        <CanShrink>true</CanShrink>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>..............................</Value>
+                <Style>
+                  <FontFamily>Angsana New</FontFamily>
+                  <FontSize>12pt</FontSize>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style>
+              <TextAlign>Center</TextAlign>
+            </Style>
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox164</rd:DefaultName>
+        <Top>3.4cm</Top>
+        <Left>8.25832cm</Left>
+        <Height>0.6cm</Height>
+        <Width>2.82287cm</Width>
+        <ZIndex>13</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox178">
+        <CanGrow>true</CanGrow>
+        <CanShrink>true</CanShrink>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>..............................</Value>
+                <Style>
+                  <FontFamily>Angsana New</FontFamily>
+                  <FontSize>12pt</FontSize>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style>
+              <TextAlign>Center</TextAlign>
+            </Style>
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox164</rd:DefaultName>
+        <Top>3.4cm</Top>
+        <Left>14.8293cm</Left>
+        <Height>0.6cm</Height>
+        <Width>2.82287cm</Width>
+        <ZIndex>14</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox179">
+        <CanGrow>true</CanGrow>
+        <CanShrink>true</CanShrink>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>วันที่....../....../............</Value>
+                <Style>
+                  <FontFamily>Angsana New</FontFamily>
+                  <FontSize>12pt</FontSize>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style>
+              <TextAlign>Center</TextAlign>
+            </Style>
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox164</rd:DefaultName>
+        <Top>4.4cm</Top>
+        <Left>8.25831cm</Left>
+        <Height>0.65cm</Height>
+        <Width>2.82287cm</Width>
+        <ZIndex>15</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox180">
+        <CanGrow>true</CanGrow>
+        <CanShrink>true</CanShrink>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>วันที่....../....../............</Value>
+                <Style>
+                  <FontFamily>Angsana New</FontFamily>
+                  <FontSize>12pt</FontSize>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style>
+              <TextAlign>Center</TextAlign>
+            </Style>
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox164</rd:DefaultName>
+        <Top>4.4cm</Top>
+        <Left>14.8293cm</Left>
+        <Height>0.65cm</Height>
+        <Width>2.82287cm</Width>
+        <ZIndex>16</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox181">
+        <CanGrow>true</CanGrow>
+        <CanShrink>true</CanShrink>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>%</Value>
+                <Style>
+                  <FontFamily>Angsana New</FontFamily>
+                  <FontSize>12pt</FontSize>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style>
+              <TextAlign>Center</TextAlign>
+            </Style>
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox164</rd:DefaultName>
+        <Top>1.85cm</Top>
+        <Left>17.09617cm</Left>
+        <Height>0.68cm</Height>
+        <Width>0.68709cm</Width>
+        <ZIndex>17</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox182">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>=First(Fields!TRH_VAT_R.Value, "DataSet1")</Value>
+                <Style>
+                  <FontFamily>Angsana New</FontFamily>
+                  <FontSize>11pt</FontSize>
+                  <Format>#,0.00;(#,0.00);'-'</Format>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style>
+              <TextAlign>Right</TextAlign>
+            </Style>
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox163</rd:DefaultName>
+        <Top>1.88cm</Top>
+        <Left>16.10084cm</Left>
+        <Height>0.6cm</Height>
+        <Width>0.96005cm</Width>
+        <ZIndex>18</ZIndex>
+        <Style>
+          <Border>
+            <Color>LightGrey</Color>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox34">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>=Parameters!sumtext.Value</Value>
+                <Style>
+                  <FontFamily>Angsana New</FontFamily>
+                  <FontSize>12pt</FontSize>
+                  <FontWeight>Bold</FontWeight>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style>
+              <TextAlign>Center</TextAlign>
+            </Style>
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox33</rd:DefaultName>
+        <Top>2.4cm</Top>
+        <Left>0.29104cm</Left>
+        <Height>0.64cm</Height>
+        <Width>13.98092cm</Width>
+        <ZIndex>19</ZIndex>
+        <Style>
+          <Border>
+            <Color>LightGrey</Color>
+            <Style>None</Style>
+            <Width>0.75pt</Width>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+    </ReportItems>
+    <Height>2.04898in</Height>
+    <Style />
+  </Body>
+  <ReportParameters>
+    <ReportParameter Name="Thaicompanyname">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Thaiaddress1">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Thaiaddress2">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Companypost">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Companyregno">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Companytelno">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Companyfax">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="image_txt">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="vatdate">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="sumtext">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+  </ReportParameters>
+  <Width>8.0862in</Width>
+  <Page>
+    <PageHeader>
+      <Height>4.09389cm</Height>
+      <PrintOnFirstPage>true</PrintOnFirstPage>
+      <PrintOnLastPage>true</PrintOnLastPage>
+      <ReportItems>
+        <Textbox Name="Textbox13">
+          <CanGrow>true</CanGrow>
+          <KeepTogether>true</KeepTogether>
+          <Paragraphs>
+            <Paragraph>
+              <TextRuns>
+                <TextRun>
+                  <Value>=First(Fields!TRH_VAT_NO.Value, "DataSet1")</Value>
+                  <Style>
+                    <FontFamily>Angsana New</FontFamily>
+                    <FontSize>12pt</FontSize>
+                  </Style>
+                </TextRun>
+              </TextRuns>
+              <Style />
+            </Paragraph>
+          </Paragraphs>
+          <rd:DefaultName>Textbox13</rd:DefaultName>
+          <Top>2.13222cm</Top>
+          <Left>17.59528cm</Left>
+          <Height>0.6cm</Height>
+          <Width>2.19702cm</Width>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+            <PaddingLeft>2pt</PaddingLeft>
+            <PaddingRight>2pt</PaddingRight>
+            <PaddingTop>2pt</PaddingTop>
+            <PaddingBottom>2pt</PaddingBottom>
+          </Style>
+        </Textbox>
+        <Textbox Name="Textbox33">
+          <CanGrow>true</CanGrow>
+          <KeepTogether>true</KeepTogether>
+          <Paragraphs>
+            <Paragraph>
+              <TextRuns>
+                <TextRun>
+                  <Value>=First(Fields!CUS_NAME.Value, "DataSet1")</Value>
+                  <Style>
+                    <FontFamily>Angsana New</FontFamily>
+                    <FontSize>12pt</FontSize>
+                  </Style>
+                </TextRun>
+              </TextRuns>
+              <Style />
+            </Paragraph>
+          </Paragraphs>
+          <rd:DefaultName>Textbox33</rd:DefaultName>
+          <Top>2.13222cm</Top>
+          <Left>1.3787cm</Left>
+          <Height>0.6cm</Height>
+          <Width>13.41597cm</Width>
+          <ZIndex>1</ZIndex>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+            <PaddingLeft>2pt</PaddingLeft>
+            <PaddingRight>2pt</PaddingRight>
+            <PaddingTop>2pt</PaddingTop>
+            <PaddingBottom>2pt</PaddingBottom>
+          </Style>
+        </Textbox>
+        <Textbox Name="Textbox57">
+          <CanGrow>true</CanGrow>
+          <KeepTogether>true</KeepTogether>
+          <Paragraphs>
+            <Paragraph>
+              <TextRuns>
+                <TextRun>
+                  <Value>ใบเสร็จรับเงิน / ใบกำกับภาษี</Value>
+                  <Style>
+                    <FontFamily>Angsana New</FontFamily>
+                    <FontSize>14pt</FontSize>
+                    <FontWeight>Bold</FontWeight>
+                  </Style>
+                </TextRun>
+              </TextRuns>
+              <Style>
+                <TextAlign>Right</TextAlign>
+              </Style>
+            </Paragraph>
+          </Paragraphs>
+          <rd:DefaultName>Textbox57</rd:DefaultName>
+          <Top>1.3cm</Top>
+          <Left>15.35cm</Left>
+          <Height>0.70583cm</Height>
+          <Width>4.4455cm</Width>
+          <ZIndex>2</ZIndex>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+            <PaddingLeft>2pt</PaddingLeft>
+            <PaddingRight>2pt</PaddingRight>
+            <PaddingTop>2pt</PaddingTop>
+            <PaddingBottom>2pt</PaddingBottom>
+          </Style>
+        </Textbox>
+        <Textbox Name="Textbox164">
+          <CanGrow>true</CanGrow>
+          <KeepTogether>true</KeepTogether>
+          <Paragraphs>
+            <Paragraph>
+              <TextRuns>
+                <TextRun>
+                  <Value>เลขที่ใบกำกับภาษี</Value>
+                  <Style>
+                    <FontFamily>Angsana New</FontFamily>
+                    <FontSize>12pt</FontSize>
+                    <FontWeight>Bold</FontWeight>
+                  </Style>
+                </TextRun>
+              </TextRuns>
+              <Style />
+            </Paragraph>
+          </Paragraphs>
+          <rd:DefaultName>Textbox164</rd:DefaultName>
+          <Top>2.13222cm</Top>
+          <Left>15.35cm</Left>
+          <Height>0.6cm</Height>
+          <Width>2.26484cm</Width>
+          <ZIndex>3</ZIndex>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+            <PaddingLeft>2pt</PaddingLeft>
+            <PaddingRight>2pt</PaddingRight>
+            <PaddingTop>2pt</PaddingTop>
+            <PaddingBottom>2pt</PaddingBottom>
+          </Style>
+        </Textbox>
+        <Textbox Name="Textbox165">
+          <CanGrow>true</CanGrow>
+          <KeepTogether>true</KeepTogether>
+          <Paragraphs>
+            <Paragraph>
+              <TextRuns>
+                <TextRun>
+                  <Value>วันที่ใบกำกับภาษี</Value>
+                  <Style>
+                    <FontFamily>Angsana New</FontFamily>
+                    <FontSize>12pt</FontSize>
+                    <FontWeight>Bold</FontWeight>
+                  </Style>
+                </TextRun>
+              </TextRuns>
+              <Style />
+            </Paragraph>
+          </Paragraphs>
+          <rd:DefaultName>Textbox164</rd:DefaultName>
+          <Top>2.68cm</Top>
+          <Left>15.35cm</Left>
+          <Height>0.64417cm</Height>
+          <Width>2.26483cm</Width>
+          <ZIndex>4</ZIndex>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+            <PaddingLeft>2pt</PaddingLeft>
+            <PaddingRight>2pt</PaddingRight>
+            <PaddingTop>2pt</PaddingTop>
+            <PaddingBottom>2pt</PaddingBottom>
+          </Style>
+        </Textbox>
+        <Textbox Name="Textbox167">
+          <CanGrow>true</CanGrow>
+          <KeepTogether>true</KeepTogether>
+          <Paragraphs>
+            <Paragraph>
+              <TextRuns>
+                <TextRun>
+                  <Value>ที่อยู่</Value>
+                  <Style>
+                    <FontFamily>Angsana New</FontFamily>
+                    <FontSize>12pt</FontSize>
+                    <FontWeight>Bold</FontWeight>
+                  </Style>
+                </TextRun>
+              </TextRuns>
+              <Style />
+            </Paragraph>
+          </Paragraphs>
+          <rd:DefaultName>Textbox164</rd:DefaultName>
+          <Top>3.2cm</Top>
+          <Left>0.29104cm</Left>
+          <Height>0.6cm</Height>
+          <Width>1.0171cm</Width>
+          <ZIndex>5</ZIndex>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+            <PaddingLeft>2pt</PaddingLeft>
+            <PaddingRight>2pt</PaddingRight>
+            <PaddingTop>2pt</PaddingTop>
+            <PaddingBottom>2pt</PaddingBottom>
+          </Style>
+        </Textbox>
+        <Textbox Name="Thaicompanyname">
+          <CanGrow>true</CanGrow>
+          <KeepTogether>true</KeepTogether>
+          <Paragraphs>
+            <Paragraph>
+              <TextRuns>
+                <TextRun>
+                  <Value>=Parameters!Thaicompanyname.Value</Value>
+                  <Style>
+                    <FontFamily>Angsana New</FontFamily>
+                    <FontSize>14pt</FontSize>
+                    <FontWeight>Bold</FontWeight>
+                  </Style>
+                </TextRun>
+              </TextRuns>
+              <Style />
+            </Paragraph>
+          </Paragraphs>
+          <rd:DefaultName>Thaicompanyname</rd:DefaultName>
+          <Top>0.125cm</Top>
+          <Left>2.23687cm</Left>
+          <Height>0.74583cm</Height>
+          <Width>12.5578cm</Width>
+          <ZIndex>6</ZIndex>
+          <Visibility>
+            <Hidden>=Cstr(Parameters!image_txt.Value).Length=0</Hidden>
+          </Visibility>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+            <PaddingLeft>2pt</PaddingLeft>
+            <PaddingRight>2pt</PaddingRight>
+            <PaddingTop>2pt</PaddingTop>
+            <PaddingBottom>2pt</PaddingBottom>
+          </Style>
+        </Textbox>
+        <Textbox Name="Textbox41">
+          <CanGrow>true</CanGrow>
+          <KeepTogether>true</KeepTogether>
+          <Paragraphs>
+            <Paragraph>
+              <TextRuns>
+                <TextRun>
+                  <Value>=First(Fields!ADDRESS.Value, "DataSet1")</Value>
+                  <Style>
+                    <FontFamily>Angsana New</FontFamily>
+                    <FontSize>12pt</FontSize>
+                  </Style>
+                </TextRun>
+              </TextRuns>
+              <Style />
+            </Paragraph>
+          </Paragraphs>
+          <rd:DefaultName>Textbox41</rd:DefaultName>
+          <Top>3.2cm</Top>
+          <Left>1.3787cm</Left>
+          <Height>0.6cm</Height>
+          <Width>13.41597cm</Width>
+          <ZIndex>7</ZIndex>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+            <PaddingLeft>2pt</PaddingLeft>
+            <PaddingRight>2pt</PaddingRight>
+            <PaddingTop>2pt</PaddingTop>
+            <PaddingBottom>2pt</PaddingBottom>
+          </Style>
+        </Textbox>
+        <Textbox Name="CUS_BRANCH">
+          <CanGrow>true</CanGrow>
+          <KeepTogether>true</KeepTogether>
+          <Paragraphs>
+            <Paragraph>
+              <TextRuns>
+                <TextRun>
+                  <Value>=First(Fields!CUS_TAXID.Value, "DataSet1")</Value>
+                  <Style>
+                    <FontFamily>Angsana New</FontFamily>
+                    <FontSize>12pt</FontSize>
+                  </Style>
+                </TextRun>
+              </TextRuns>
+              <Style />
+            </Paragraph>
+          </Paragraphs>
+          <rd:DefaultName>CUS_BRANCH</rd:DefaultName>
+          <Top>2.68cm</Top>
+          <Left>3.26606cm</Left>
+          <Height>0.6cm</Height>
+          <Width>2.38566cm</Width>
+          <ZIndex>8</ZIndex>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+            <PaddingLeft>2pt</PaddingLeft>
+            <PaddingRight>2pt</PaddingRight>
+            <PaddingTop>2pt</PaddingTop>
+            <PaddingBottom>2pt</PaddingBottom>
+          </Style>
+        </Textbox>
+        <Textbox Name="CUS_TAXID">
+          <CanGrow>true</CanGrow>
+          <KeepTogether>true</KeepTogether>
+          <Paragraphs>
+            <Paragraph>
+              <TextRuns>
+                <TextRun>
+                  <Value>=First(Fields!CUS_BRANCH.Value, "DataSet1")</Value>
+                  <Style>
+                    <FontFamily>Angsana New</FontFamily>
+                    <FontSize>12pt</FontSize>
+                  </Style>
+                </TextRun>
+              </TextRuns>
+              <Style />
+            </Paragraph>
+          </Paragraphs>
+          <rd:DefaultName>CUS_TAXID</rd:DefaultName>
+          <Top>2.68cm</Top>
+          <Left>6.6159cm</Left>
+          <Height>0.6cm</Height>
+          <Width>3.26915cm</Width>
+          <ZIndex>9</ZIndex>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+            <PaddingLeft>2pt</PaddingLeft>
+            <PaddingRight>2pt</PaddingRight>
+            <PaddingTop>2pt</PaddingTop>
+            <PaddingBottom>2pt</PaddingBottom>
+          </Style>
+        </Textbox>
+        <Textbox Name="Textbox168">
+          <CanGrow>true</CanGrow>
+          <CanShrink>true</CanShrink>
+          <KeepTogether>true</KeepTogether>
+          <Paragraphs>
+            <Paragraph>
+              <TextRuns>
+                <TextRun>
+                  <Value>เลขประจำตัวผู้เสียภาษี</Value>
+                  <Style>
+                    <FontFamily>Angsana New</FontFamily>
+                    <FontSize>12pt</FontSize>
+                    <FontWeight>Bold</FontWeight>
+                  </Style>
+                </TextRun>
+              </TextRuns>
+              <Style />
+            </Paragraph>
+          </Paragraphs>
+          <rd:DefaultName>Textbox164</rd:DefaultName>
+          <Top>2.68cm</Top>
+          <Left>0.29104cm</Left>
+          <Height>0.6cm</Height>
+          <Width>2.93974cm</Width>
+          <ZIndex>10</ZIndex>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+            <PaddingLeft>2pt</PaddingLeft>
+            <PaddingRight>2pt</PaddingRight>
+            <PaddingTop>2pt</PaddingTop>
+            <PaddingBottom>2pt</PaddingBottom>
+          </Style>
+        </Textbox>
+        <Textbox Name="Textbox169">
+          <CanGrow>true</CanGrow>
+          <CanShrink>true</CanShrink>
+          <KeepTogether>true</KeepTogether>
+          <Paragraphs>
+            <Paragraph>
+              <TextRuns>
+                <TextRun>
+                  <Value>สาขา</Value>
+                  <Style>
+                    <FontFamily>Angsana New</FontFamily>
+                    <FontSize>12pt</FontSize>
+                    <FontWeight>Bold</FontWeight>
+                  </Style>
+                </TextRun>
+              </TextRuns>
+              <Style />
+            </Paragraph>
+          </Paragraphs>
+          <rd:DefaultName>Textbox164</rd:DefaultName>
+          <Top>2.68cm</Top>
+          <Left>5.68699cm</Left>
+          <Height>0.6cm</Height>
+          <Width>0.85835cm</Width>
+          <ZIndex>11</ZIndex>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+            <PaddingLeft>2pt</PaddingLeft>
+            <PaddingRight>2pt</PaddingRight>
+            <PaddingTop>2pt</PaddingTop>
+            <PaddingBottom>2pt</PaddingBottom>
+          </Style>
+        </Textbox>
+        <Textbox Name="Textbox166">
+          <CanGrow>true</CanGrow>
+          <CanShrink>true</CanShrink>
+          <KeepTogether>true</KeepTogether>
+          <Paragraphs>
+            <Paragraph>
+              <TextRuns>
+                <TextRun>
+                  <Value>ลูกค้า</Value>
+                  <Style>
+                    <FontFamily>Angsana New</FontFamily>
+                    <FontSize>12pt</FontSize>
+                    <FontWeight>Bold</FontWeight>
+                  </Style>
+                </TextRun>
+              </TextRuns>
+              <Style />
+            </Paragraph>
+          </Paragraphs>
+          <rd:DefaultName>Textbox164</rd:DefaultName>
+          <Top>2.13222cm</Top>
+          <Left>0.29104cm</Left>
+          <Height>0.6cm</Height>
+          <Width>1.0171cm</Width>
+          <ZIndex>12</ZIndex>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+            <PaddingLeft>2pt</PaddingLeft>
+            <PaddingRight>2pt</PaddingRight>
+            <PaddingTop>2pt</PaddingTop>
+            <PaddingBottom>2pt</PaddingBottom>
+          </Style>
+        </Textbox>
+        <Textbox Name="Thaiaddress1">
+          <CanGrow>true</CanGrow>
+          <KeepTogether>true</KeepTogether>
+          <Paragraphs>
+            <Paragraph>
+              <TextRuns>
+                <TextRun>
+                  <Value>=Parameters!Thaiaddress1.Value &amp; " " &amp; Parameters!Thaiaddress2.Value &amp; " " 
+&amp; Parameters!Companypost.Value &amp; " โทร. " &amp; Parameters!Companytelno.Value</Value>
+                  <Style>
+                    <FontFamily>Angsana New</FontFamily>
+                    <FontSize>12pt</FontSize>
+                  </Style>
+                </TextRun>
+              </TextRuns>
+              <Style />
+            </Paragraph>
+          </Paragraphs>
+          <rd:DefaultName>Thaiaddress1</rd:DefaultName>
+          <Top>0.68cm</Top>
+          <Left>2.23687cm</Left>
+          <Height>0.7cm</Height>
+          <Width>12.5578cm</Width>
+          <ZIndex>13</ZIndex>
+          <Visibility>
+            <Hidden>=Cstr(Parameters!image_txt.Value).Length=0</Hidden>
+          </Visibility>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+            <PaddingLeft>2pt</PaddingLeft>
+            <PaddingRight>2pt</PaddingRight>
+            <PaddingTop>2pt</PaddingTop>
+            <PaddingBottom>2pt</PaddingBottom>
+          </Style>
+        </Textbox>
+        <Textbox Name="Companyregno">
+          <CanGrow>true</CanGrow>
+          <KeepTogether>true</KeepTogether>
+          <Paragraphs>
+            <Paragraph>
+              <TextRuns>
+                <TextRun>
+                  <Value>=Parameters!Companyregno.Value</Value>
+                  <Style>
+                    <FontFamily>Angsana New</FontFamily>
+                    <FontSize>12pt</FontSize>
+                  </Style>
+                </TextRun>
+              </TextRuns>
+              <Style />
+            </Paragraph>
+          </Paragraphs>
+          <rd:DefaultName>Companyregno</rd:DefaultName>
+          <Top>1.14cm</Top>
+          <Left>5.04687cm</Left>
+          <Height>0.7cm</Height>
+          <Width>2.75135cm</Width>
+          <ZIndex>14</ZIndex>
+          <Visibility>
+            <Hidden>=Cstr(Parameters!image_txt.Value).Length=0</Hidden>
+          </Visibility>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+            <PaddingLeft>2pt</PaddingLeft>
+            <PaddingRight>2pt</PaddingRight>
+            <PaddingTop>2pt</PaddingTop>
+            <PaddingBottom>2pt</PaddingBottom>
+          </Style>
+        </Textbox>
+        <Textbox Name="Textbox170">
+          <CanGrow>true</CanGrow>
+          <CanShrink>true</CanShrink>
+          <KeepTogether>true</KeepTogether>
+          <Paragraphs>
+            <Paragraph>
+              <TextRuns>
+                <TextRun>
+                  <Value>เลขประจำตัวผู้เสียภาษี</Value>
+                  <Style>
+                    <FontFamily>Angsana New</FontFamily>
+                    <FontSize>12pt</FontSize>
+                  </Style>
+                </TextRun>
+              </TextRuns>
+              <Style />
+            </Paragraph>
+          </Paragraphs>
+          <rd:DefaultName>Textbox164</rd:DefaultName>
+          <Top>1.14cm</Top>
+          <Left>2.23687cm</Left>
+          <Height>0.7cm</Height>
+          <Width>2.81cm</Width>
+          <ZIndex>15</ZIndex>
+          <Visibility>
+            <Hidden>=Cstr(Parameters!image_txt.Value).Length=0</Hidden>
+          </Visibility>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+            <PaddingLeft>2pt</PaddingLeft>
+            <PaddingRight>2pt</PaddingRight>
+            <PaddingTop>2pt</PaddingTop>
+            <PaddingBottom>2pt</PaddingBottom>
+          </Style>
+        </Textbox>
+        <Image Name="Image3">
+          <Source>External</Source>
+          <Value>="file:" &amp; Parameters!image_txt.Value</Value>
+          <Sizing>FitProportional</Sizing>
+          <Top>0.125cm</Top>
+          <Left>0.29104cm</Left>
+          <Height>1.75cm</Height>
+          <Width>1.84cm</Width>
+          <ZIndex>16</ZIndex>
+          <Visibility>
+            <Hidden>=Cstr(Parameters!image_txt.Value).Length=0</Hidden>
+          </Visibility>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+          </Style>
+        </Image>
+        <Textbox Name="vatdate">
+          <CanGrow>true</CanGrow>
+          <KeepTogether>true</KeepTogether>
+          <Paragraphs>
+            <Paragraph>
+              <TextRuns>
+                <TextRun>
+                  <Value>=Parameters!vatdate.Value</Value>
+                  <Style>
+                    <FontFamily>Angsana New</FontFamily>
+                    <FontSize>12pt</FontSize>
+                  </Style>
+                </TextRun>
+              </TextRuns>
+              <Style />
+            </Paragraph>
+          </Paragraphs>
+          <rd:DefaultName>vatdate</rd:DefaultName>
+          <Top>2.68cm</Top>
+          <Left>17.59528cm</Left>
+          <Height>0.644cm</Height>
+          <Width>2.19382cm</Width>
+          <ZIndex>17</ZIndex>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+            <PaddingLeft>2pt</PaddingLeft>
+            <PaddingRight>2pt</PaddingRight>
+            <PaddingTop>2pt</PaddingTop>
+            <PaddingBottom>2pt</PaddingBottom>
+          </Style>
+        </Textbox>
+        <Textbox Name="Thaicompanyname2">
+          <CanGrow>true</CanGrow>
+          <KeepTogether>true</KeepTogether>
+          <Paragraphs>
+            <Paragraph>
+              <TextRuns>
+                <TextRun>
+                  <Value>=Parameters!Thaicompanyname.Value</Value>
+                  <Style>
+                    <FontFamily>Angsana New</FontFamily>
+                    <FontSize>14pt</FontSize>
+                    <FontWeight>Bold</FontWeight>
+                  </Style>
+                </TextRun>
+              </TextRuns>
+              <Style />
+            </Paragraph>
+          </Paragraphs>
+          <rd:DefaultName>Thaicompanyname</rd:DefaultName>
+          <Top>0.125cm</Top>
+          <Left>0.29104cm</Left>
+          <Height>0.74583cm</Height>
+          <Width>14.50363cm</Width>
+          <ZIndex>18</ZIndex>
+          <Visibility>
+            <Hidden>=Cstr(Parameters!image_txt.Value).Length&gt;0</Hidden>
+          </Visibility>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+            <PaddingLeft>2pt</PaddingLeft>
+            <PaddingRight>2pt</PaddingRight>
+            <PaddingTop>2pt</PaddingTop>
+            <PaddingBottom>2pt</PaddingBottom>
+          </Style>
+        </Textbox>
+        <Textbox Name="Thaiaddress2">
+          <CanGrow>true</CanGrow>
+          <KeepTogether>true</KeepTogether>
+          <Paragraphs>
+            <Paragraph>
+              <TextRuns>
+                <TextRun>
+                  <Value>=Parameters!Thaiaddress1.Value &amp; " " &amp; Parameters!Thaiaddress2.Value &amp; " " 
+&amp; Parameters!Companypost.Value &amp; " โทร. " &amp; Parameters!Companytelno.Value</Value>
+                  <Style>
+                    <FontFamily>Angsana New</FontFamily>
+                    <FontSize>12pt</FontSize>
+                  </Style>
+                </TextRun>
+              </TextRuns>
+              <Style />
+            </Paragraph>
+          </Paragraphs>
+          <rd:DefaultName>Thaiaddress1</rd:DefaultName>
+          <Top>0.68cm</Top>
+          <Left>0.29104cm</Left>
+          <Height>0.7cm</Height>
+          <Width>14.50363cm</Width>
+          <ZIndex>19</ZIndex>
+          <Visibility>
+            <Hidden>=Cstr(Parameters!image_txt.Value).Length&gt;0</Hidden>
+          </Visibility>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+            <PaddingLeft>2pt</PaddingLeft>
+            <PaddingRight>2pt</PaddingRight>
+            <PaddingTop>2pt</PaddingTop>
+            <PaddingBottom>2pt</PaddingBottom>
+          </Style>
+        </Textbox>
+        <Textbox Name="Textbox183">
+          <CanGrow>true</CanGrow>
+          <CanShrink>true</CanShrink>
+          <KeepTogether>true</KeepTogether>
+          <Paragraphs>
+            <Paragraph>
+              <TextRuns>
+                <TextRun>
+                  <Value>เลขประจำตัวผู้เสียภาษี</Value>
+                  <Style>
+                    <FontFamily>Angsana New</FontFamily>
+                    <FontSize>12pt</FontSize>
+                  </Style>
+                </TextRun>
+              </TextRuns>
+              <Style />
+            </Paragraph>
+          </Paragraphs>
+          <rd:DefaultName>Textbox164</rd:DefaultName>
+          <Top>1.14cm</Top>
+          <Left>0.29104cm</Left>
+          <Height>0.7cm</Height>
+          <Width>2.81cm</Width>
+          <ZIndex>20</ZIndex>
+          <Visibility>
+            <Hidden>=Cstr(Parameters!image_txt.Value).Length&gt;0</Hidden>
+          </Visibility>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+            <PaddingLeft>2pt</PaddingLeft>
+            <PaddingRight>2pt</PaddingRight>
+            <PaddingTop>2pt</PaddingTop>
+            <PaddingBottom>2pt</PaddingBottom>
+          </Style>
+        </Textbox>
+        <Textbox Name="Companyregno2">
+          <CanGrow>true</CanGrow>
+          <KeepTogether>true</KeepTogether>
+          <Paragraphs>
+            <Paragraph>
+              <TextRuns>
+                <TextRun>
+                  <Value>=Parameters!Companyregno.Value</Value>
+                  <Style>
+                    <FontFamily>Angsana New</FontFamily>
+                    <FontSize>12pt</FontSize>
+                  </Style>
+                </TextRun>
+              </TextRuns>
+              <Style />
+            </Paragraph>
+          </Paragraphs>
+          <rd:DefaultName>Companyregno</rd:DefaultName>
+          <Top>1.14cm</Top>
+          <Left>3.10104cm</Left>
+          <Height>0.7cm</Height>
+          <Width>2.81831cm</Width>
+          <ZIndex>21</ZIndex>
+          <Visibility>
+            <Hidden>=Cstr(Parameters!image_txt.Value).Length&gt;0</Hidden>
+          </Visibility>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+            <PaddingLeft>2pt</PaddingLeft>
+            <PaddingRight>2pt</PaddingRight>
+            <PaddingTop>2pt</PaddingTop>
+            <PaddingBottom>2pt</PaddingBottom>
+          </Style>
+        </Textbox>
+      </ReportItems>
+      <Style>
+        <Border>
+          <Style>None</Style>
+        </Border>
+      </Style>
+    </PageHeader>
+    <PageFooter>
+      <Height>0.43215cm</Height>
+      <PrintOnFirstPage>true</PrintOnFirstPage>
+      <PrintOnLastPage>true</PrintOnLastPage>
+      <Style>
+        <Border>
+          <Style>None</Style>
+        </Border>
+      </Style>
+    </PageFooter>
+    <PageHeight>27.94cm</PageHeight>
+    <PageWidth>21.59cm</PageWidth>
+    <LeftMargin>0.4cm</LeftMargin>
+    <RightMargin>0.4cm</RightMargin>
+    <TopMargin>0.4cm</TopMargin>
+    <BottomMargin>0.4cm</BottomMargin>
+    <ColumnSpacing>0.13cm</ColumnSpacing>
+    <Style />
+  </Page>
+  <EmbeddedImages>
+    <EmbeddedImage Name="tt">
+      <MIMEType>image/jpeg</MIMEType>
+      <ImageData>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</ImageData>
+    </EmbeddedImage>
+  </EmbeddedImages>
+  <rd:ReportID>4df182dd-8b8c-4adf-ad87-78594ddc21bf</rd:ReportID>
+  <rd:ReportUnitType>Cm</rd:ReportUnitType>
+</Report>

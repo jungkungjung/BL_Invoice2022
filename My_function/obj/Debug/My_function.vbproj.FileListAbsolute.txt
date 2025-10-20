@@ -1,0 +1,10 @@
+D:\app_new\backup_new\Item_master_po\My_function\bin\Debug\My_function.dll
+D:\app_new\backup_new\Item_master_po\My_function\bin\Debug\My_function.pdb
+D:\app_new\backup_new\Item_master_po\My_function\bin\Debug\My_function.xml
+D:\app_new\backup_new\Item_master_po\My_function\obj\Debug\ResolveAssemblyReference.cache
+D:\app_new\backup_new\Item_master_po\My_function\obj\Debug\My_function.Resources.resources
+D:\app_new\backup_new\Item_master_po\My_function\obj\Debug\GenerateResource.read.1.tlog
+D:\app_new\backup_new\Item_master_po\My_function\obj\Debug\GenerateResource.write.1.tlog
+D:\app_new\backup_new\Item_master_po\My_function\obj\Debug\My_function.dll
+D:\app_new\backup_new\Item_master_po\My_function\obj\Debug\My_function.xml
+D:\app_new\backup_new\Item_master_po\My_function\obj\Debug\My_function.pdb

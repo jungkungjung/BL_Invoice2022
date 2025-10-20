@@ -1,0 +1,72 @@
+C:\Users\Kullawat\Desktop\sam - Copy\sam\bin\Debug\sam.exe.config
+C:\Users\Kullawat\Desktop\sam - Copy\sam\bin\Debug\sam.exe
+C:\Users\Kullawat\Desktop\sam - Copy\sam\bin\Debug\sam.pdb
+C:\Users\Kullawat\Desktop\sam - Copy\sam\bin\Debug\sam.xml
+C:\Users\Kullawat\Desktop\sam - Copy\sam\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Kullawat\Desktop\sam - Copy\sam\obj\x86\Debug\sam.Form1.resources
+C:\Users\Kullawat\Desktop\sam - Copy\sam\obj\x86\Debug\sam.Form3.resources
+C:\Users\Kullawat\Desktop\sam - Copy\sam\obj\x86\Debug\sam.Resources.resources
+C:\Users\Kullawat\Desktop\sam - Copy\sam\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Users\Kullawat\Desktop\sam - Copy\sam\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Users\Kullawat\Desktop\sam - Copy\sam\obj\x86\Debug\sam.exe
+C:\Users\Kullawat\Desktop\sam - Copy\sam\obj\x86\Debug\sam.xml
+C:\Users\Kullawat\Desktop\sam - Copy\sam\obj\x86\Debug\sam.pdb
+C:\Users\Kullawat\Desktop\sam - Copy\sam\obj\x86\Debug\sam.MDIParent1.resources
+C:\Users\Kullawat\Desktop\sam - Copy\sam\obj\x86\Debug\sam.Main.resources
+C:\Users\Kullawat\Desktop\sam - Copy\sam\obj\x86\Debug\sam.Form2.resources
+C:\Users\Kullawat\Desktop\sam - Copy\sam\obj\x86\Debug\sam.Form4.resources
+C:\Users\Kullawat\Desktop\sam_b4\sam\bin\Debug\sam.exe.config
+C:\Users\Kullawat\Desktop\sam_b4\sam\obj\x86\Debug\sam.exe
+C:\Users\Kullawat\Desktop\sam_b4\sam\obj\x86\Debug\sam.xml
+C:\Users\Kullawat\Desktop\sam_b4\sam\obj\x86\Debug\sam.pdb
+C:\Users\Kullawat\Desktop\sam_b4\sam\bin\Debug\sam.exe
+C:\Users\Kullawat\Desktop\sam_b4\sam\bin\Debug\sam.pdb
+C:\Users\Kullawat\Desktop\sam_b4\sam\bin\Debug\sam.xml
+C:\Users\Kullawat\Desktop\sam_b4\sam\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Kullawat\Desktop\sam_b4\sam\obj\x86\Debug\sam.Form1.resources
+C:\Users\Kullawat\Desktop\sam_b4\sam\obj\x86\Debug\sam.Form2.resources
+C:\Users\Kullawat\Desktop\sam_b4\sam\obj\x86\Debug\sam.Form3.resources
+C:\Users\Kullawat\Desktop\sam_b4\sam\obj\x86\Debug\sam.Form4.resources
+C:\Users\Kullawat\Desktop\sam_b4\sam\obj\x86\Debug\sam.Main.resources
+C:\Users\Kullawat\Desktop\sam_b4\sam\obj\x86\Debug\sam.MDIParent1.resources
+C:\Users\Kullawat\Desktop\sam_b4\sam\obj\x86\Debug\sam.Resources.resources
+C:\Users\Kullawat\Desktop\sam_b4\sam\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Users\Kullawat\Desktop\sam_b4\sam\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Users\Kullawat\Desktop\sam_b4\sam\obj\x86\Debug\sam.Form5.resources
+D:\dktop\sam_b4\sam\bin\Debug\sam.exe.config
+D:\dktop\sam_b4\sam\obj\x86\Debug\sam.exe
+D:\dktop\sam_b4\sam\obj\x86\Debug\sam.xml
+D:\dktop\sam_b4\sam\obj\x86\Debug\sam.pdb
+D:\dktop\sam_b4\sam\bin\Debug\sam.exe
+D:\dktop\sam_b4\sam\bin\Debug\sam.pdb
+D:\dktop\sam_b4\sam\bin\Debug\sam.xml
+D:\dktop\sam_b4\sam\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\dktop\sam_b4\sam\obj\x86\Debug\sam.Form1.resources
+D:\dktop\sam_b4\sam\obj\x86\Debug\sam.Form2.resources
+D:\dktop\sam_b4\sam\obj\x86\Debug\sam.Form3.resources
+D:\dktop\sam_b4\sam\obj\x86\Debug\sam.Form4.resources
+D:\dktop\sam_b4\sam\obj\x86\Debug\sam.Form5.resources
+D:\dktop\sam_b4\sam\obj\x86\Debug\sam.Main.resources
+D:\dktop\sam_b4\sam\obj\x86\Debug\sam.MDIParent1.resources
+D:\dktop\sam_b4\sam\obj\x86\Debug\sam.Resources.resources
+D:\dktop\sam_b4\sam\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+D:\dktop\sam_b4\sam\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Users\Kullawat\Desktop\back_vb\sam_b4\sam\bin\Debug\sam.exe.config
+C:\Users\Kullawat\Desktop\back_vb\sam_b4\sam\obj\x86\Debug\sam.exe
+C:\Users\Kullawat\Desktop\back_vb\sam_b4\sam\obj\x86\Debug\sam.xml
+C:\Users\Kullawat\Desktop\back_vb\sam_b4\sam\obj\x86\Debug\sam.pdb
+C:\Users\Kullawat\Desktop\sam_diary\sam\bin\Debug\sam.exe.config
+C:\Users\Kullawat\Desktop\sam_diary\sam\obj\x86\Debug\sam.exe
+C:\Users\Kullawat\Desktop\sam_diary\sam\obj\x86\Debug\sam.xml
+C:\Users\Kullawat\Desktop\sam_diary\sam\obj\x86\Debug\sam.pdb
+C:\Users\Kullawat\Desktop\sam_diary\sam\bin\Debug\sam.exe
+C:\Users\Kullawat\Desktop\sam_diary\sam\bin\Debug\sam.pdb
+C:\Users\Kullawat\Desktop\sam_diary\sam\bin\Debug\sam.xml
+C:\Users\Kullawat\Desktop\sam_diary\sam\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Kullawat\Desktop\sam_diary\sam\obj\x86\Debug\sam.Form3.resources
+C:\Users\Kullawat\Desktop\sam_diary\sam\obj\x86\Debug\sam.Form4.resources
+C:\Users\Kullawat\Desktop\sam_diary\sam\obj\x86\Debug\sam.MDIParent1.resources
+C:\Users\Kullawat\Desktop\sam_diary\sam\obj\x86\Debug\sam.Resources.resources
+C:\Users\Kullawat\Desktop\sam_diary\sam\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Users\Kullawat\Desktop\sam_diary\sam\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Users\Kullawat\Desktop\sam_diary\sam\obj\x86\Debug\sam.Form1.resources

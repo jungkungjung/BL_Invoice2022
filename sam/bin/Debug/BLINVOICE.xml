@@ -1,0 +1,1388 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+BLINVOICE
+</name>
+</assembly>
+<members>
+<member name="T:BLINVOICE.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.Add">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.Add_32x32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.add16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.add18">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.add20">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.add24">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.add2401">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.add241">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.Add30">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.add303">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.ar">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.ar_tran30">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.ar_tran42">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.ar_tran42_42">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.ar_tran420002">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.ar_tran42001">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.ar42">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.ar50">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.bill_green">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.bill_red">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.bl_info">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.blempty">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.check42">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.close20">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.close26">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.close42">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.company_blue">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.company101">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.company4201">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.company4202">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.company42025">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.company42026">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.company42027">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.company4203">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.company4205">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.company4206">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.company4209">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.company4210">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.Customer_32x32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.customer_group3_4233">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.customer_group4233">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.customer_grp">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.customer42101">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.Customer4233">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.delete24">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.delete26">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.Delete28">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.delete301">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.delete302">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.delete303">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.delete304">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.EditDataSource_32x32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.emp3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.Employee_32x32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.empty2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.Excel20">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.Excel26">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.Excel3001">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.exit_4233">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.Exit24">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.Exit2601">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.Exit30">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.Exit301">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.Exit32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.Exit34">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.export30">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.export3001">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.Home42">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.image">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.Info_16x16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.info4233">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.logo">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.opened_folder48">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.plokok400">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.Print_32x32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.Print_32x321">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.print3001">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.print34001">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.print36001">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.printer22">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.printer24">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.Printer2401">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.Printer28">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.printer30">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.Printer301">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.printer32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.Printer34004">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.printer36002">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.product42001">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.product42002">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.product42003">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.Properties_32x32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.PublicFix_32x32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.Question_16x16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.quit">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.quit344">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.report">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.S__89628674">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.S__89653322">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.S__89718791">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.S__89923586">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.sales4201">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.sales4202">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.sales4211">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.sales4212">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.sales4213">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.sales4215">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.salesman4204">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.salesman4205">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.salesman4206">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.Save24">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.Save26">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.Save302">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.Save3030">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.save304">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.Search">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.Search34">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.Search38">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.settings42">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.Settings4233">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.shutdown_off_close4233">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.shutdown4233">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.Shutdown423301">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.sl44">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.sl45">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.software">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.software34233">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.software4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.software4233">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.software7">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.software74233">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.tool">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.UserGroup_32x32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.users4233">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BLINVOICE.My.Resources.Resources.Zoom_16x16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:BLINVOICE.INVOICE_BLDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:BLINVOICE.INVOICE_BLDataSet.ADDRESSDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:BLINVOICE.INVOICE_BLDataSet.CODE_RUNNINGDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:BLINVOICE.INVOICE_BLDataSet.COMPANYDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:BLINVOICE.INVOICE_BLDataSet.CUSTOMERDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:BLINVOICE.INVOICE_BLDataSet.CUSTOMER_TYPEDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:BLINVOICE.INVOICE_BLDataSet.DOCTYPEDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:BLINVOICE.INVOICE_BLDataSet.PRODUCTSDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:BLINVOICE.INVOICE_BLDataSet.PRODUCTS_TYPEDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:BLINVOICE.INVOICE_BLDataSet.PROVINCEDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:BLINVOICE.INVOICE_BLDataSet.SALESMANDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:BLINVOICE.INVOICE_BLDataSet.TRANDETAILDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:BLINVOICE.INVOICE_BLDataSet.TRANMAINDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:BLINVOICE.INVOICE_BLDataSet.doc_reportDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:BLINVOICE.INVOICE_BLDataSet.ADDRESSRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:BLINVOICE.INVOICE_BLDataSet.CODE_RUNNINGRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:BLINVOICE.INVOICE_BLDataSet.COMPANYRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:BLINVOICE.INVOICE_BLDataSet.CUSTOMERRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:BLINVOICE.INVOICE_BLDataSet.CUSTOMER_TYPERow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:BLINVOICE.INVOICE_BLDataSet.DOCTYPERow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:BLINVOICE.INVOICE_BLDataSet.PRODUCTSRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:BLINVOICE.INVOICE_BLDataSet.PRODUCTS_TYPERow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:BLINVOICE.INVOICE_BLDataSet.PROVINCERow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:BLINVOICE.INVOICE_BLDataSet.SALESMANRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:BLINVOICE.INVOICE_BLDataSet.TRANDETAILRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:BLINVOICE.INVOICE_BLDataSet.TRANMAINRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:BLINVOICE.INVOICE_BLDataSet.doc_reportRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:BLINVOICE.INVOICE_BLDataSet.ADDRESSRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:BLINVOICE.INVOICE_BLDataSet.CODE_RUNNINGRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:BLINVOICE.INVOICE_BLDataSet.COMPANYRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:BLINVOICE.INVOICE_BLDataSet.CUSTOMERRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:BLINVOICE.INVOICE_BLDataSet.CUSTOMER_TYPERowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:BLINVOICE.INVOICE_BLDataSet.DOCTYPERowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:BLINVOICE.INVOICE_BLDataSet.PRODUCTSRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:BLINVOICE.INVOICE_BLDataSet.PRODUCTS_TYPERowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:BLINVOICE.INVOICE_BLDataSet.PROVINCERowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:BLINVOICE.INVOICE_BLDataSet.SALESMANRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:BLINVOICE.INVOICE_BLDataSet.TRANDETAILRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:BLINVOICE.INVOICE_BLDataSet.TRANMAINRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:BLINVOICE.INVOICE_BLDataSet.doc_reportRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:BLINVOICE.INVOICE_BLDataSetTableAdapters.ADDRESSTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:BLINVOICE.INVOICE_BLDataSetTableAdapters.CODE_RUNNINGTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:BLINVOICE.INVOICE_BLDataSetTableAdapters.COMPANYTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:BLINVOICE.INVOICE_BLDataSetTableAdapters.CUSTOMERTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:BLINVOICE.INVOICE_BLDataSetTableAdapters.CUSTOMER_TYPETableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:BLINVOICE.INVOICE_BLDataSetTableAdapters.DOCTYPETableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:BLINVOICE.INVOICE_BLDataSetTableAdapters.PRODUCTSTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:BLINVOICE.INVOICE_BLDataSetTableAdapters.PRODUCTS_TYPETableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:BLINVOICE.INVOICE_BLDataSetTableAdapters.PROVINCETableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:BLINVOICE.INVOICE_BLDataSetTableAdapters.SALESMANTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:BLINVOICE.INVOICE_BLDataSetTableAdapters.TRANDETAILTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:BLINVOICE.INVOICE_BLDataSetTableAdapters.TRANMAINTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:BLINVOICE.INVOICE_BLDataSetTableAdapters.doc_reportTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:BLINVOICE.INVOICE_BLDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:BLINVOICE.INVOICE_BLDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(BLINVOICE.INVOICE_BLDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:BLINVOICE.INVOICE_BLDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(BLINVOICE.INVOICE_BLDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:BLINVOICE.INVOICE_BLDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(BLINVOICE.INVOICE_BLDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:BLINVOICE.INVOICE_BLDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:BLINVOICE.INVOICE_BLDataSetTableAdapters.TableAdapterManager.UpdateAll(BLINVOICE.INVOICE_BLDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:BLINVOICE.INVOICE_BLDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:BLINVOICE.INVOICE_BLDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:BLINVOICE.INVOICEDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:BLINVOICE.INVOICEDataSet.ADDRESSDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:BLINVOICE.INVOICEDataSet.CODE_RUNNINGDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:BLINVOICE.INVOICEDataSet.COMPANYDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:BLINVOICE.INVOICEDataSet.CUSTOMERDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:BLINVOICE.INVOICEDataSet.CUSTOMER_TYPEDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:BLINVOICE.INVOICEDataSet.DOCTYPEDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:BLINVOICE.INVOICEDataSet.PRODUCTSDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:BLINVOICE.INVOICEDataSet.PRODUCTS_TYPEDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:BLINVOICE.INVOICEDataSet.PROVINCEDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:BLINVOICE.INVOICEDataSet.SALESMANDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:BLINVOICE.INVOICEDataSet.TRANDETAILDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:BLINVOICE.INVOICEDataSet.TRANMAINDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:BLINVOICE.INVOICEDataSet.ADDRESSRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:BLINVOICE.INVOICEDataSet.CODE_RUNNINGRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:BLINVOICE.INVOICEDataSet.COMPANYRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:BLINVOICE.INVOICEDataSet.CUSTOMERRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:BLINVOICE.INVOICEDataSet.CUSTOMER_TYPERow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:BLINVOICE.INVOICEDataSet.DOCTYPERow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:BLINVOICE.INVOICEDataSet.PRODUCTSRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:BLINVOICE.INVOICEDataSet.PRODUCTS_TYPERow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:BLINVOICE.INVOICEDataSet.PROVINCERow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:BLINVOICE.INVOICEDataSet.SALESMANRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:BLINVOICE.INVOICEDataSet.TRANDETAILRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:BLINVOICE.INVOICEDataSet.TRANMAINRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:BLINVOICE.INVOICEDataSet.ADDRESSRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:BLINVOICE.INVOICEDataSet.CODE_RUNNINGRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:BLINVOICE.INVOICEDataSet.COMPANYRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:BLINVOICE.INVOICEDataSet.CUSTOMERRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:BLINVOICE.INVOICEDataSet.CUSTOMER_TYPERowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:BLINVOICE.INVOICEDataSet.DOCTYPERowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:BLINVOICE.INVOICEDataSet.PRODUCTSRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:BLINVOICE.INVOICEDataSet.PRODUCTS_TYPERowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:BLINVOICE.INVOICEDataSet.PROVINCERowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:BLINVOICE.INVOICEDataSet.SALESMANRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:BLINVOICE.INVOICEDataSet.TRANDETAILRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:BLINVOICE.INVOICEDataSet.TRANMAINRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:BLINVOICE.INVOICEDataSetTableAdapters.COMPANYTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:BLINVOICE.INVOICEDataSetTableAdapters.ADDRESSTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:BLINVOICE.INVOICEDataSetTableAdapters.CODE_RUNNINGTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:BLINVOICE.INVOICEDataSetTableAdapters.CUSTOMERTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:BLINVOICE.INVOICEDataSetTableAdapters.CUSTOMER_TYPETableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:BLINVOICE.INVOICEDataSetTableAdapters.DOCTYPETableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:BLINVOICE.INVOICEDataSetTableAdapters.PRODUCTSTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:BLINVOICE.INVOICEDataSetTableAdapters.PRODUCTS_TYPETableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:BLINVOICE.INVOICEDataSetTableAdapters.PROVINCETableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:BLINVOICE.INVOICEDataSetTableAdapters.SALESMANTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:BLINVOICE.INVOICEDataSetTableAdapters.TRANDETAILTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:BLINVOICE.INVOICEDataSetTableAdapters.TRANMAINTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:BLINVOICE.INVOICEDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:BLINVOICE.INVOICEDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(BLINVOICE.INVOICEDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:BLINVOICE.INVOICEDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(BLINVOICE.INVOICEDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:BLINVOICE.INVOICEDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(BLINVOICE.INVOICEDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:BLINVOICE.INVOICEDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:BLINVOICE.INVOICEDataSetTableAdapters.TableAdapterManager.UpdateAll(BLINVOICE.INVOICEDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:BLINVOICE.INVOICEDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:BLINVOICE.INVOICEDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="F:BLINVOICE.TabControlEx.readingColour">
+ <summary>
+ The colour in which to display tabs for pages that are being read.
+ </summary>
+</member>
+<member name="F:BLINVOICE.TabControlEx.readColour">
+ <summary>
+ The colour in which to display tabs for pages containing all read data.
+ </summary>
+</member>
+<member name="F:BLINVOICE.TabControlEx.tabColours">
+ <summary>
+ The colours in which to display the tabs.
+ </summary>
+</member>
+<member name="M:BLINVOICE.TabControlEx.SetTabUnread(System.Int32)">
+ <summary>
+ Sets the colour of a tab to the unread colour.
+ </summary>
+ <param name="index">
+ The index of the tab for which to set the colour.
+ </param>
+</member>
+<member name="M:BLINVOICE.TabControlEx.SetTabRead(System.Int32)">
+ <summary>
+ Sets the colour of a tab to the read colour.
+ </summary>
+ <param name="index">
+ The index of the tab for which to set the colour.
+ </param>
+</member>
+<member name="M:BLINVOICE.TabControlEx.SetTabReading(System.Int32)">
+ <summary>
+ Sets the colour of a tab to the reading colour.
+ </summary>
+ <param name="index">
+ The index of the tab for which to set the colour.
+ </param>
+</member>
+<member name="M:BLINVOICE.TabControlEx.SetTabColour(System.Int32,System.Drawing.Color)">
+ <summary>
+ Sets the colour of a tab.
+ </summary>
+ <param name="index">
+ The index of the tab for which to set the colour.
+ </param>
+ <param name="colour">
+ The colour to which to set the tab.
+ </param>
+</member>
+<member name="M:BLINVOICE.TabControlEx.AddTabPage(System.String)">
+ <summary>
+ Adds a new tab page to the end of the tab control.
+ </summary>
+ <param name="text">
+ The text to display on the tab.
+ </param>
+ <remarks>
+ The tab is initially displayed using the read colour.
+ </remarks>
+</member>
+<member name="M:BLINVOICE.TabControlEx.InsertTabPage(System.Int32,System.String)">
+ <summary>
+ Adds a new tab page to the tab control at the specified index.
+ </summary>
+ <param name="index">
+ The index at which to insert the tab.
+ </param>
+ <param name="text">
+ The text to display on the tab.
+ </param>
+ <remarks>
+ The tab is initially displayed using the read colour.
+ </remarks>
+</member>
+<member name="M:BLINVOICE.TabControlEx.OnSelected(System.Windows.Forms.TabControlEventArgs)">
+ <summary>
+ Raises the <see cref="E:System.Windows.Forms.TabControl.Selected">Selected</see> event.
+ </summary>
+ <param name="e">
+ The data for the event.
+ </param>
+ <remarks>
+ The selected tab is displayed in the reading colour.
+ </remarks>
+</member>
+<member name="M:BLINVOICE.TabControlEx.OnDeselected(System.Windows.Forms.TabControlEventArgs)">
+ <summary>
+ Raises the <see cref="E:System.Windows.Forms.TabControl.Deselected">Deselected</see> event.
+ </summary>
+ <param name="e">
+ The data for the event.
+ </param>
+ <remarks>
+ The deselected tab is displayed in the read colour.
+ </remarks>
+</member>
+</members>
+</doc>
