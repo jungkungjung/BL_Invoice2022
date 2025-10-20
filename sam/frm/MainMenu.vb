@@ -128,10 +128,14 @@ Public Class MainMenu
     End Sub
 
     Private Sub ToolStripButton17_Click(sender As System.Object, e As System.EventArgs) Handles ToolStripButton17.Click
-        Dim frm As New products_type_profile
-        frm.MdiParent = Me
-        frm.Dock = DockStyle.Fill
-        frm.Show()
+        Try
+            Dim frm As New products_type_profile
+            frm.MdiParent = Me
+            frm.Dock = DockStyle.Fill
+            frm.Show()
+        Catch ex As Exception
+            MsgBox(Err.Description, MsgBoxStyle.Exclamation, "Result")
+        End Try
     End Sub
 
     Private Sub ToolStripButton28_Click(sender As System.Object, e As System.EventArgs) Handles ToolStripButton28.Click

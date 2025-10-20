@@ -5326,3 +5326,7 @@ D:\Github\BL_Invoice2022\sam\bin\Debug\BLINVOICE.pdb
 D:\Github\BL_Invoice2022\sam\bin\Debug\BLINVOICE.xml
 D:\Github\BL_Invoice2022\sam\bin\Debug\Microsoft.Office.Interop.Excel.dll
 D:\Github\BL_Invoice2022\sam\obj\x86\Debug\training.vbproj.Up2Date
+D:\Github\BL_Invoice2022\sam\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\Github\BL_Invoice2022\sam\bin\Debug\CrystalDecisions.ReportSource.dll
+D:\Github\BL_Invoice2022\sam\bin\Debug\CrystalDecisions.Shared.dll
+D:\Github\BL_Invoice2022\sam\bin\Debug\CrystalDecisions.Windows.Forms.dll
